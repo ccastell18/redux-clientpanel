@@ -4,10 +4,6 @@ import Sidebar from './Sidebar';
 
 export default () => {
   return (
-    // <div>
-    //   <h1>Dashboard</h1>
-    // </div>
-
     <div className="row">
       <div className="col-md-10">
         <Clients />
