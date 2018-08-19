@@ -54,13 +54,13 @@ class ClientDetails extends Component {
               className="form-control"
               name="balanceUpdateAmount"
               placeholder="Add New Balance"
-              value={balanceUpdateAmount}
+              defaultValue={balanceUpdateAmount}
               onChange={this.onChange}
             />
             <div className="input-group-append">
               <input
                 type="Submit"
-                value="Update"
+                defaultValue="Update"
                 className="btn btn-outline-dark"
               />
             </div>
